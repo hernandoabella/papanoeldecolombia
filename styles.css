@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Playfair+Display&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 :root{
     --colorPrincipal: rgb(195, 40, 40);
+    --Defaultborder: 1px solid rgb(242, 234, 234);
+    --DefaultShadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    border: var(--Defaultborder);
 }
 
 /* -------- Navegacion ---------- */
@@ -18,11 +26,13 @@
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .navegacion__principal h1{
     color: #fff;
     font-family: 'Mountains of Christmas', cursive;
+    
 }
 
 .navegacion__principal ul li{
@@ -34,6 +44,124 @@
     text-decoration: none;
     font-size: 1.3em;
     margin: 20px;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+.navegacion__principal ul li a:hover{
+    text-decoration: underline;
 }
 
 /* -------- Navegacion ---------- */
+
+/* -------- Hero ---------- */
+
+#hero{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero h2{
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+}
+
+#hero > div:nth-child(1){
+    width: 50%;
+}
+
+.btn{
+    background: var(--colorPrincipal);
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#hero img{
+    width: 280px;
+    border-radius: 25px;
+    transform: rotate(15deg);
+    box-shadow: var(--DefaultShadow);
+}
+
+#hero p{
+    margin: 20px 0px;
+}
+
+/* -------- Hero ---------- */
+
+/* -------- Sobre Nosotros ---------- */
+
+#sobre__nosotros{
+    margin: 50px;
+}
+
+#sobre__nosotros h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+}
+
+/* -------- Sobre Nosotros ---------- */
+
+/* -------- servicios ---------- */
+
+#servicios{
+    margin: 50px;
+}
+
+#servicios h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+}
+
+/* -------- servicios ---------- */
+
+/* -------- testimonios ---------- */
+
+#testimonios{
+    margin: 50px;
+}
+
+#testimonios h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+}
+
+/* -------- testimonios ---------- */
+
+/* -------- contacto ---------- */
+
+#contacto{
+    margin: 50px;
+}
+
+#contacto h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+}
+
+/* -------- contacto ---------- */
+
+/* -------- footer ---------- */
+
+footer{
+    background: var(--colorPrincipal);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/* -------- footer ---------- */
