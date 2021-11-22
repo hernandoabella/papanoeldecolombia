@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mountains+of+Christmas:wght@700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root{
@@ -17,6 +17,10 @@ hr{
     width: 80%;
     margin: auto;
     border: var(--Defaultborder);
+}
+
+p{
+    line-height: 30px;
 }
 
 /* -------- Navegacion ---------- */
@@ -89,8 +93,15 @@ hr{
     box-shadow: var(--DefaultShadow);
 }
 
-#hero p{
-    margin: 20px 0px;
+@media screen and (max-width: 768px) {
+    #hero{
+        margin: 50px;
+        flex-direction: column;
+    }
+
+    #hero > div:nth-child(1){
+        width: 100%;
+    }
 }
 
 /* -------- Hero ---------- */
@@ -106,7 +117,13 @@ hr{
     font-size: 2em;
     font-family: 'Mountains of Christmas', cursive;
     color: var(--colorPrincipal);
+    text-align: center;
 }
+
+#biografia p{
+    margin: auto;
+}
+
 
 /* -------- Biografía ---------- */
 
@@ -121,7 +138,9 @@ hr{
     font-size: 2em;
     font-family: 'Mountains of Christmas', cursive;
     color: var(--colorPrincipal);
+    text-align: center;
 }
+
 
 /* -------- Sobre Nosotros ---------- */
 
@@ -136,9 +155,26 @@ hr{
     font-size: 2em;
     font-family: 'Mountains of Christmas', cursive;
     color: var(--colorPrincipal);
+    text-align: center;
 }
 
 /* -------- servicios ---------- */
+
+/* -------- galeria ---------- */
+
+#galeria{
+    margin: 50px;
+}
+
+#galeria h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+    text-align: center;
+}
+
+/* -------- galeria ---------- */
 
 /* -------- testimonios ---------- */
 
@@ -151,6 +187,7 @@ hr{
     font-size: 2em;
     font-family: 'Mountains of Christmas', cursive;
     color: var(--colorPrincipal);
+    text-align: center;
 }
 
 /* -------- testimonios ---------- */
@@ -166,6 +203,7 @@ hr{
     font-size: 2em;
     font-family: 'Mountains of Christmas', cursive;
     color: var(--colorPrincipal);
+    text-align: center;
 }
 
 /* -------- contacto ---------- */
