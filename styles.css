@@ -95,6 +95,21 @@ hr{
 
 /* -------- Hero ---------- */
 
+/* -------- Biografía ---------- */
+
+#biografia{
+    margin: 50px;
+}
+
+#biografia h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: 'Mountains of Christmas', cursive;
+    color: var(--colorPrincipal);
+}
+
+/* -------- Biografía ---------- */
+
 /* -------- Sobre Nosotros ---------- */
 
 #sobre__nosotros{
