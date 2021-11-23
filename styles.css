@@ -14,9 +14,14 @@
     --DefaultShadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+h1, h2, h3{
+  color: var(--colorPrincipal);
+}
+
 p{
-    line-height: 30px;
+    line-height: 28px;
     text-align: justify;
+    font-size: 1.3em;
 }
 
 hr{
@@ -26,6 +31,10 @@ hr{
 }
 
 @media screen and (max-width: 768px){
+    *{
+      font-size: 1em;
+    }
+
     hr{
         width: 100%;
     }
@@ -91,17 +100,15 @@ hr{
 #hero img{
     width: 280px;
     box-shadow: var(--DefaultShadow);
+    border-radius: 100%;
+}
+
+.flexyHero{
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {
-    #hero{
-        margin: 50px;
-        flex-direction: column;
-    }
-
-    #hero > div:nth-child(1){
-        width: 100%;
-    }
+    
 }
 
 /* -------- Hero ---------- */
@@ -135,9 +142,26 @@ hr{
 }
 
 .insertedDiv div{
+  padding: 10px;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.one{
   width: 50%;
 }
 
+.two{
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+}
 
 /* -------- Biografía ---------- */
 
@@ -145,6 +169,7 @@ hr{
 
 #sobre__nosotros{
     margin: 50px;
+    clear: both;
 }
 
 #sobre__nosotros h2{
@@ -162,7 +187,14 @@ hr{
 
 #sobre__nosotros img{
   margin: 10px auto;
-  width: 600px;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #sobre__nosotros img{
+    margin: 10px auto;
+    width: 100%;
+  }
 }
 
 
@@ -184,11 +216,8 @@ hr{
     text-align: center;
 }
 
-#servicios p{
-    margin: auto;
-    width: 90%;
-    
-}
+
+
 
 /* -------- servicios ---------- */
 
@@ -432,7 +461,7 @@ img {vertical-align: middle;}
 }
 
 #contacto img{
-  width: 600px;
+  width: 100%;
 }
 
 .social__media{
@@ -452,6 +481,12 @@ img {vertical-align: middle;}
 
 .contact__stuff{
   display: flex;
+}
+
+@media screen and (max-width: 768px){
+  hr{
+      width: 100%;
+  }
 }
 
 /* -------- contacto ---------- */
