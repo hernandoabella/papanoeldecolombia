@@ -98,7 +98,7 @@ hr{
 }
 
 #hero img{
-    width: 280px;
+    width: 100%;
     box-shadow: var(--DefaultShadow);
     border-radius: 100%;
 }
@@ -149,8 +149,12 @@ hr{
   display: flex;
 }
 
+.wrapper div{
+
+}
+
 .one{
-  width: 50%;
+  margin: auto;
 }
 
 .two{
