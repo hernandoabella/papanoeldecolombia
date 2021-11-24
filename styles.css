@@ -20,17 +20,6 @@ h1, h2, h3{
   color: var(--colorPrincipal);
 }
 
-p{
-    line-height: 28px;
-    text-align: justify;
-    font-size: 1.3em;
-}
-
-hr{
-  width: 30%;
-  margin: auto;
-  border: var(--Defaultborder);
-}
 
 @media screen and (max-width: 768px){
     *{
@@ -128,7 +117,7 @@ hr{
 }
 
 .testimonial .testimonial-text h3 {
-  color: #EF233C;
+  color: var(--colorPrincipal);
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
