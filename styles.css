@@ -22,13 +22,7 @@ h1, h2, h3{
 
 
 @media screen and (max-width: 768px){
-    *{
-      font-size: 1em;
-    }
-
-    hr{
-        width: 100%;
-    }
+    
 }
 
 /* -------- Default styles ---------- */
@@ -51,13 +45,13 @@ h1, h2, h3{
 
 /* -------- Sobre Nosotros ---------- */
 
-/* -------- servicios ---------- */
-
-/* -------- servicios ---------- */
-
 /* -------- galeria ---------- */
 
 /* -------- galeria ---------- */
+
+/* -------- servicios ---------- */
+
+/* -------- servicios ---------- */
 
 /* -------- testimonios ---------- */
 
