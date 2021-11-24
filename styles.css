@@ -98,6 +98,18 @@ section {
 
 /* -------- Biografía ---------- */
 
+#biografia{
+  margin: 50px;
+}
+
+.fila{
+  display: flex;
+}
+
+.columna{
+  width: 50%;
+}
+
 /* -------- Biografía ---------- */
 
 /* -------- Sobre Nosotros ---------- */
