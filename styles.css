@@ -26,6 +26,57 @@ section {
   position: relative !important;
 }
 
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: rgb(250, 71, 71);
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  
+  background-color: var(--colorPrincipal);
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}
+
 
 /* @media screen and (max-width: 768px){
     
@@ -41,6 +92,8 @@ section {
 
 /* -------- Hero ---------- */
 
+
+
 /* -------- Hero ---------- */
 
 /* -------- Biografía ---------- */
@@ -48,68 +101,6 @@ section {
 /* -------- Biografía ---------- */
 
 /* -------- Sobre Nosotros ---------- */
-
-
-
-* {
-	padding: 0;
-	margin: 0;
-}
-
-body {
-	font-family: 'Fauna One', serif;
-	font-size: 20px;
-}
-
-li {
-	list-style: none;
-}
-
-a {
-	color: white;
-}
-
-a:hover, a:focus {
-	color: white;
-	text-decoration: none;
-}
-
-
-h1 {
-	color: white;
-	text-align: center;
-	margin-top: 4%;
-	font-size: 412.5%;
-}
-
-
-h1 > small {
-	display: block;
-	color: white;
-}
-
-h2 {
-	font-size: 245%;
-	margin-top: 140px;
-}
-
-h2:after {
-	display: block;
-	margin: 42px 0;
-	content: "";
-}
-
-h3 {
-	font-weight: bold;
-}
-
-h4 {
-	font-size: 92%;
-}
-
-h6 {
-	color: #F0F0F0;
-}
 
 
 h1 .logo {
@@ -412,7 +403,6 @@ h1 .logo {
 	}
 
 	#portfolio section:hover .overlay .heading span {
-	 -webkit-transform: rotate(90deg);
 	 top: 70px;
 	 left: -240px;
 	 position: relative;
@@ -526,7 +516,6 @@ h1 .logo {
 	 position: relative;
 	 top: -0px;
 	 color: white;
-	 -webkit-transition: none;
 	}
 
 	#portfolio .heading span {
@@ -572,7 +561,9 @@ h1 .logo {
 
 /* -------- galeria ---------- */
 
-
+#gallery{
+  background: var(--colorPrincipal);
+}
 
 /* -------- galeria ---------- */
 
