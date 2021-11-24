@@ -10,3 +10,4 @@ $(".testimonials-carousel").owlCarousel({
         }
     }
 });
+

@@ -21,9 +21,9 @@ h1, h2, h3{
 }
 
 section {
-  clear: both;
-  float: none;
-  position: relative;
+  clear: both !important;
+  float: none !important;
+  position: relative !important;
 }
 
 
@@ -84,13 +84,18 @@ section {
   margin: 24px auto 7px auto !important;
 }
 
+.service__number{
+  color: var(--colorPrincipal);
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 2em;
+}
+
 /* -------- servicios ---------- */
 
 /* -------- testimonios ---------- */
 
 .testimonial {
   position: relative;
-  margin: 45px 0;
   padding: 90px 0;
   background: var(--colorPrincipal);
 }
