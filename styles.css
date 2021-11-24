@@ -20,10 +20,16 @@ h1, h2, h3{
   color: var(--colorPrincipal);
 }
 
-
-@media screen and (max-width: 768px){
-    
+section {
+  clear: both;
+  float: none;
+  position: relative;
 }
+
+
+/* @media screen and (max-width: 768px){
+    
+} */
 
 /* -------- Default styles ---------- */
 
@@ -47,9 +53,36 @@ h1, h2, h3{
 
 /* -------- galeria ---------- */
 
+
+
 /* -------- galeria ---------- */
 
 /* -------- servicios ---------- */
+
+/* #services{
+  
+} */
+
+.sow-headline{
+  padding: 50px;
+}
+
+.sow-headline h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+.sow-headline .decoration {
+  border-top: medium solid var(--colorPrincipal);
+  position: relative;
+  margin: 20px 60px 20px 60px;
+}
+
+.sow-headline .decoration {
+  width: 50px;
+  margin: 24px auto 7px auto !important;
+}
 
 /* -------- servicios ---------- */
 
@@ -149,14 +182,5 @@ h1, h2, h3{
 
 /* -------- footer ---------- */
 
-footer{
-    background: var(--colorPrincipal);
-    padding: 20px;
-    color: #fff;
-}
-
-footer p{
-    text-align: center;
-}
 
 /* -------- footer ---------- */
