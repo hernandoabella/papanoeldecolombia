@@ -12,20 +12,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
 h1, h2, h3{
   color: var(--colorPrincipal);
+  font-family: 'Mountains of Christmas', cursive;
 }
-
-
 
 .fila{
   display: flex;
 }
-
 
 @media screen and (max-width: 768px){
     .fila{
@@ -44,6 +41,7 @@ h1, h2, h3{
   background: #5d5b6a; }
 
 .site-navbar {
+  font-family: 'Mountains of Christmas', cursive;
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
@@ -342,7 +340,7 @@ h1, h2, h3{
 
 #hero{
   background: var(--colorPrincipal);
-  color: #fff;
+  color: #fff !important;
 }
 
 #hero h2{
@@ -351,18 +349,29 @@ h1, h2, h3{
   font-family: 'Mountains of Christmas', cursive;
 }
 
-#hero img{
-  border-radius: 100%;
-}
-
-#hero div{
-  padding: 50px;
+#hero p{
+  color: #fff;
 }
 
 #hero div img{
-  width: 100%;
+  border-radius: 100%;
   position: relative;
-  top: -50px;
+  bottom: 50px;
+  box-shadow: var(--DefaultShadow);
+}
+
+#hero div{
+  margin: auto;
+  padding: 50px;
+}
+
+#hero div > div{
+  margin: auto;
+}
+
+#hero div img{
+  width: 400px;
+  margin-top: 80px;
 }
 
 #hero button{
@@ -374,7 +383,15 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 768px){
+  #hero div{
+    padding: 50px 20px;
+  }
 
+  #hero div img{
+    border-radius: 0%;
+    margin: 0;
+    width: 100%;
+  }
 
 }
 
