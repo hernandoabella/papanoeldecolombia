@@ -575,7 +575,7 @@ h1, h2, h3{
 }
 
 #contacto h2{
-  
+  color: #fff;
   font-family: 'Mountains of Christmas', cursive;
 }
 
@@ -611,23 +611,23 @@ h1, h2, h3{
 
 @media screen and (max-width: 768px){
 
-  #services{
+  #contacto{
     padding: 50px 20px;
   }
 
-  #services h2{
+  #contacto h2{
     text-align: center;
+    
   }
 
-  #services div div{
+  #contacto div div{
     width: 100%;
-    margin: 0;
+    margin: auto;
   }
 
-  #services img{
-    display: none;
+  #contacto div:nth-child(2){
+    margin-top: 10px;
   }
-
 
 }
 
