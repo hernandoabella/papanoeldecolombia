@@ -460,6 +460,10 @@ h1, h2, h3{
   color: #fff;
 }
 
+#sobre__nosotros img{
+  width: 100%;
+}
+
 #sobre__nosotros hr{
   border: var(--Defaultborder);
 } 
@@ -635,7 +639,7 @@ h1, h2, h3{
   }
 
   .redes__sociales a{
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
 }
