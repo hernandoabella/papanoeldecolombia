@@ -327,11 +327,11 @@ h1, h2, h3{
     .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
       color: #000; }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-      color: #007bff; }
+      color: var(--colorPrincipal); }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
       color: #000 !important; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover, .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-        color: #007bff !important; }
+        color: var(--colorPrincipal) !important; }
 
 
 /* -------- Navegacion ---------- */
@@ -420,11 +420,26 @@ h1, h2, h3{
 }
 
 #biografia div div{
-  margin: 10px;
+  margin: 20px;
   width: 50%;
 }
 
+@media screen and (max-width: 768px){
+  #biografia{
+    padding: 50px 20px;
+  }
 
+  #biografia h2{
+    text-align: center;
+    padding: 20px;
+  }
+
+  #biografia div div{
+    width: 100%;
+    margin: 0;
+  }
+
+}
 
 /* -------- Biografía ---------- */
 
@@ -450,8 +465,29 @@ h1, h2, h3{
 } 
 
 #sobre__nosotros div div{
-  margin: 10px;
+  margin: 20px;
   width: 50%;
+}
+
+@media screen and (max-width: 768px){
+  #sobre__nosotros{
+    padding: 50px 20px;
+  }
+
+  #sobre__nosotros h2{
+    text-align: center;
+  }
+
+  #sobre__nosotros div div{
+    width: 100%;
+    margin: 0;
+  }
+
+  #sobre__nosotros img{
+    width: 100%;
+  }
+
+
 }
 
 /* -------- Sobre Nosotros ---------- */
@@ -472,7 +508,6 @@ h1, h2, h3{
 
 #services h2{
   color: var(--colorPrincipal);
-  text-align: center;
   font-family: 'Mountains of Christmas', cursive;
 }
 
@@ -496,9 +531,15 @@ h1, h2, h3{
 }
 
 #services div div{
-  margin: 10px;
+  margin: 20px;
   width: 50%;
   
+}
+
+@media screen and (max-width: 768px){
+ 
+
+
 }
 
 /* -------- servicios ---------- */
