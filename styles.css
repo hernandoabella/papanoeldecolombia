@@ -20,11 +20,7 @@ h1, h2, h3{
   color: var(--colorPrincipal);
 }
 
-section {
-  clear: both !important;
-  float: none !important;
-  position: relative !important;
-}
+
 
 .fila{
   display: flex;
@@ -592,6 +588,13 @@ section {
   padding-right: 10px;
   font-size: 2em;
 } */
+
+/* @media screen and (max-width: 768px){
+  .fila{
+    flex-direction: column;
+  }
+} */
+
 
 /* -------- contacto ---------- */
 
