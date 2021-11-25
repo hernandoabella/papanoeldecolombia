@@ -411,8 +411,17 @@ h1, h2, h3{
   font-family: 'Mountains of Christmas', cursive;
 }
 
+#biografia p{
+  color: #000;
+}
+
 #biografia img{
   width: 100%;
+}
+
+#biografia div div{
+  margin: 10px;
+  width: 50%;
 }
 
 
@@ -432,9 +441,18 @@ h1, h2, h3{
   font-family: 'Mountains of Christmas', cursive;
 }
 
+#sobre__nosotros p{
+  color: #fff;
+}
+
 #sobre__nosotros hr{
   border: var(--Defaultborder);
-} */
+} 
+
+#sobre__nosotros div div{
+  margin: 10px;
+  width: 50%;
+}
 
 /* -------- Sobre Nosotros ---------- */
 
@@ -462,115 +480,54 @@ h1, h2, h3{
   border: var(--Defaultborder);
 }
 
+#services p{
+  color: #000;
+}
+
 .service__number{
   color: var(--colorPrincipal);
   font-family: 'Mountains of Christmas', cursive;
-  font-size: 2em;
+  
+}
+
+#services div img{
+  width: 100%;
+  
+}
+
+#services div div{
+  margin: 10px;
+  width: 50%;
+  
 }
 
 /* -------- servicios ---------- */
 
 /* -------- testimonios ---------- */
 
-.testimonial {
-  position: relative;
-  padding: 90px 0;
-  background: var(--colorPrincipal);
-  color: #000;
-}
 
-.testimonial .container {
-  max-width: 900px;
-}
-
-.testimonial .testimonial-icon {
-  margin-bottom: 45px;
-  text-align: center;
-}
-
-.testimonial .testimonial-icon i {
-  font-size: 60px;
-  color: rgba(256, 256, 256, .5);
-}
-
-.testimonial .testimonial-item {
-  position: relative;
-  margin: 0 15px;
-  text-align: center;
-}
-
-.testimonial .testimonial-img {
-  position: relative;
-  margin-bottom: 15px;
-  z-index: 1;
-}
-
-.testimonial .testimonial-item img {
-  margin: 0 auto;
-  width: 120px;
-  padding: 10px;
-  border: 5px dotted #ffffff;
-  border-radius: 100px;
-}
-
-.testimonial .testimonial-text {
-  position: relative;
-  margin-top: -70px;
-  padding: 65px 35px 30px 35px;
-  text-align: center;
-  background: #ffffff;
-  border-radius: 500px;
-}
-
-.testimonial .testimonial-item p {
-  font-size: 18px;
-  font-style: italic;
-}
-
-.testimonial .testimonial-text h3 {
-  color: var(--colorPrincipal);
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.testimonial .testimonial-text h4 {
-  color: #666666;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.testimonial .owl-dots {
-  margin-top: 15px;
-  text-align: center;
-}
-
-.testimonial .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: rgba(256, 256, 256, .5);
-}
-
-.testimonial .owl-dot.active {
-  background: #ffffff;
-}
 
 /* -------- testimonios ---------- */
 
 /* -------- contacto ---------- */
 
 #contacto{
-  background: #fff;
-  color: #000;
+  background: var(--colorPrincipal);
+  color: #fff;
   padding: 50px;
 }
 
 #contacto h2{
-  color: var(--colorPrincipal);
+  
   font-family: 'Mountains of Christmas', cursive;
+}
+
+#contacto hr{
+  border: 1px solid #fff;
+}
+
+#contacto p{
+  color: #fff;
 }
 
 #contacto img{
@@ -589,6 +546,11 @@ h1, h2, h3{
   padding-right: 10px;
   font-size: 2em;
 } 
+
+#contacto div div{
+  margin: 20px;
+  width: 50%;
+}
 
 /* @media screen and (max-width: 768px){
   .fila{
@@ -610,6 +572,7 @@ footer{
 
 footer p{
   margin: 0;
+  color: #fff;
 }
 
 /* -------- footer ---------- */
