@@ -13,13 +13,14 @@ Hemos sido invitados a programas de interés regional y también a nivel naciona
 Llevamos <b>48 años</b> de labor impulsando la cultura navideña en todo el territorio nacional y preparando a todos nuestros personajes para que conozcan la simbología y los elementos que conforman la navidad.
 
 ## Contáctanos
-Contáctanos para más información acerca de nuestros servicios.
-<b>Donaciones Nequi:</b> 3017899168
-<b>Donaciones Paypal:</b> hernandogrisales11@gmail.com
-<i class="fal fa-map-marker-alt"></i> Calle 14 A #35-22 Galicia. Santa Marta, Colombia
-<i class="fal fa-envelope"></i> fundacionpapanoeldecolombia@gmail.com
-<i class="fal fa-phone-rotary"></i> 3017899168 - 3003796767
-<i class="fal fa-wifi"></i> www.papanoeldecolombia.com
+
+<p>Contáctanos para más información acerca de nuestros servicios.</p>
+<p><b>Donaciones Nequi:</b> 3017899168</p>
+<p><b>Donaciones Paypal:</b> hernandogrisales11@gmail.com</p>
+<p><i class="fal fa-map-marker-alt"></i> Calle 14 A #35-22 Galicia. Santa Marta, Colombia</p>
+<p><i class="fal fa-envelope"></i> fundacionpapanoeldecolombia@gmail.com</p>
+<p><i class="fal fa-phone-rotary"></i> 3017899168 - 3003796767</p>
+<p><i class="fal fa-wifi"></i> www.papanoeldecolombia.com</p>
 
 ## Servicios
 
