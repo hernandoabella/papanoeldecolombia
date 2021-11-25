@@ -592,32 +592,33 @@ h1, h2, h3{
 }
 
 #contacto i{
-  color: var(--colorPrincipal);
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
-
-.redes__sociales{
-  display: flex;
-}
-
-.redes__sociales div{
-  padding-right: 10px;
-  font-size: 2em;
-} 
 
 #contacto div div{
   margin: 20px;
   width: 50%;
 }
 
-@media screen and (max-width: 768px){
+.redes__sociales{
+  margin: 0 !important;
+  padding: 0;
+}
 
+.redes__sociales a{
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px){
   #contacto{
     padding: 50px 20px;
   }
 
   #contacto h2{
     text-align: center;
-    
   }
 
   #contacto div div{
@@ -627,6 +628,14 @@ h1, h2, h3{
 
   #contacto div:nth-child(2){
     margin-top: 10px;
+  }
+
+  #contacto img{
+    display: none;
+  }
+
+  .redes__sociales a{
+    font-size: 1em;
   }
 
 }
