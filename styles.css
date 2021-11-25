@@ -537,7 +537,23 @@ h1, h2, h3{
 }
 
 @media screen and (max-width: 768px){
- 
+
+  #services{
+    padding: 50px 20px;
+  }
+
+  #services h2{
+    text-align: center;
+  }
+
+  #services div div{
+    width: 100%;
+    margin: 0;
+  }
+
+  #services img{
+    display: none;
+  }
 
 
 }
@@ -593,10 +609,26 @@ h1, h2, h3{
   width: 50%;
 }
 
-/* @media screen and (max-width: 768px){
-  .fila{
-    flex-direction: column;
+@media screen and (max-width: 768px){
+
+  #services{
+    padding: 50px 20px;
   }
+
+  #services h2{
+    text-align: center;
+  }
+
+  #services div div{
+    width: 100%;
+    margin: 0;
+  }
+
+  #services img{
+    display: none;
+  }
+
+
 }
 
 
