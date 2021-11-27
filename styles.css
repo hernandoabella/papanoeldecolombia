@@ -499,7 +499,6 @@ h1, h2, h3{
 /* -------- galeria ---------- */
 
 #galeria{
-  background: var(--colorPrincipal);
   padding: 50px;
 }
 
